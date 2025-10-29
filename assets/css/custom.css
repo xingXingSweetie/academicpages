@@ -12,9 +12,13 @@ body{font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Hel
 .contact a{color:var(--accent);text-decoration:none}
 .nav{margin-top:10px}
 .nav a{display:inline-block;margin-right:12px;color:#0b5fff;text-decoration:none;font-weight:600}
-.main-grid{display:grid;grid-template-columns:1fr;gap:18px;padding:22px 0}
-.card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 6px 20px rgba(12,18,40,0.04)}
-.card h2{margin-top:0}
-.full-width{grid-column:1/-1}
+/* Make the main content single-column so each section occupies full width */
+.main-grid{display:block;gap:18px;padding:28px 0}
+.card{background:var(--card);padding:26px;border-radius:12px;box-shadow:0 10px 30px rgba(12,18,40,0.06);margin-bottom:18px}
+.card h2{margin-top:0;font-size:22px}
+.card h3{margin-bottom:6px;margin-top:12px;font-size:18px}
+.card p, .card ul{line-height:1.7;color:#222}
+.card ul{margin-left:1.1rem}
+.full-width{width:100%}
 .site-footer{padding:18px 0;text-align:center;color:var(--muted);font-size:14px}
-@media(min-width:900px){.main-grid{grid-template-columns:repeat(2,1fr)}.header-grid{align-items:center}.title-block h1{font-size:34px}}
+@media(min-width:900px){.header-grid{align-items:center}.title-block h1{font-size:34px}}
