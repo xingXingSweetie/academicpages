@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Your Name / Site Title"
+locale                   : "zh-CN"
+title                    : "陈旻歆 (Chen Minxin)"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://cmx.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "cmx/cmx.github.io"
+name                     : &name "陈旻歆"
+description              : &description "北京大学（深圳）智慧城市与大数据方向，城市规划大模型与 MLLM Benchmark"
+url                      : https://xingxingsweetie.github.io # the base hostname & protocol for your site
+baseurl                  : "/academicpages" # the subpath of your site, e.g. "/blog" — set for project site
+repository               : "xingXingSweetie/academicpages"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "陈旻歆"
+  avatar           : "images/avatar-chen-minxin.jpg"
+  bio              : "北京大学（深圳）智慧城市与大数据方向研二，在城市规划大模型与 MLLM Benchmark 方向从事研究。"
+  location         : "深圳 / 北京"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
