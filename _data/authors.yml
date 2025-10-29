@@ -1,5 +1,16 @@
 # Authors
 
+陈旻歆:
+  name        : "Chen Minxin (陈旻歆)"
+  email       : "minxin_chen@stu.pku.edu.cn"
+  phone       : "+86 13370204543"
+  bio         : "北京大学（深圳）智慧城市与大数据方向研二在读，研究方向包括城市规划大模型和 MLLM Benchmark。兴趣涵盖城市与空间认知、计算机视觉与大模型在规划领域的应用。"
+  avatar      : "images/avatar-chen-minxin.jpg"
+  location    : "深圳，北京大学-深圳研究生院"
+  homepage    : ""
+  orcid       : ""
+
+# 示例其它作者（可删除或替换）
 Name Name:
   name        : "Name Name"
   uri         : "http://name.com"
